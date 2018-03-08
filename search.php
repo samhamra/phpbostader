@@ -1,8 +1,8 @@
 <?php
  $servername = "mysql-vt2016.csc.kth.se";
  $username = "shamra_admin";
- $password = "rOVAeCpn";
- $database = "shamra";
+ $password = 
+ $database = 
  $statement = "SELECT DISTINCT lan FROM bostader";
  try {
    $conn = new PDO("mysql:host=$servername;dbname=$database;charset=utf8", $username, $password);
