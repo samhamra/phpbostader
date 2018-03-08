@@ -2,8 +2,8 @@
 session_start();
  $servername = "mysql-vt2016.csc.kth.se";
  $username = "shamra_admin";
- $password = "rOVAeCpn";
- $database = "shamra";
+ $password = "";
+ $database = "";
  if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    $_SESSION["lan"] = $_POST["lan"];
    $_SESSION["objekttyp"] = $_POST["objekttyp"];
